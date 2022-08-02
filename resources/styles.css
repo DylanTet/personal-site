@@ -1,0 +1,185 @@
+body {
+    font-family: Roboto;
+}
+
+/* Nav Bar */
+
+header {
+    background-color: #00ADB5;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+header li {
+    padding: 0 1%;
+}
+
+.nav-bar {
+    margin: 0 0;
+}
+
+.nav {
+    margin-right: 65%;
+}
+
+.resume-button {
+    font-style: 'Roboto';
+    font-weight: bold;
+}
+
+/* HOME SECTION */
+
+#home {
+    padding-bottom: 7%;
+    background-image: url('./images/dylan-tettemer.JPG');
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 40%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.hero-title {
+    padding-top: 10%;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-family: 'Ibarra-Real-Nova';
+    color: #00ADB5;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    background-color: #EEE;
+    padding-top: 1%;
+    color: #222831;
+    padding-bottom: 7%;
+
+}
+
+.welcome-title {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#about p {
+    font-size: 1.4rem;
+    font-family: 'Ibarra-Real-Nova';
+}
+
+.about-me {
+    color: #393E46;
+}
+
+.skills {
+    padding: 1% 5%;
+}
+
+.progress {
+    margin-bottom: 5%;
+}
+
+.skills h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skill-img {
+    width: 30%;
+    height: auto;
+    padding: 4%;
+    filter: drop-shadow(30px 10px 4px rgb(77, 77, 77));
+}
+
+.skills-col {
+    padding: 10px 30px;
+}
+
+/* Projects Section */
+
+#projects {
+    padding: 7% 4%;
+}
+
+#projects h2 {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.list-group {
+    margin-top: 40px;
+}
+
+.list-group-item {
+    margin: 0 2%;
+    padding: 0 0;
+    font-size: 1.3rem;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.list-group-item:hover {
+    color: #00ADB5;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.is-checked {
+    color: #00ADB5;
+    text-decoration: underline;
+}
+
+.projects-container {
+    margin-top: 40px;
+}
+
+#projects img {
+    transition: all 0.5s ease;
+}
+
+#projects img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* Contact Section */
+
+#contact {
+    padding: 7% 4%;
+    background-color: #EEE;
+}
+
+#contact h2 {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 40px 20%;
+}
+
+.contact-button {
+    background-color: #00ADB5;
+    font-weight: bold;
+}
+

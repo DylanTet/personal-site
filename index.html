@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./resources/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <header class="text-white fixed-top">
+            <div class="container nav-bar">
+              <div class="align-items-center justify-content-center justify-content-lg-start">
+                <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+                  <button class="btn btn-outline-dark me-2 resume-button" type="button">Resume</button>
+                  <li><a href="#home" class="nav-link px-2 text-secondary">Home</a></li>
+                  <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+                  <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
+                  <li><a href="#contact" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </header>
+
+          <!--HOME/HERO SECTION-->
+          <section id="home">
+
+              <div class="hero-section px-4 pt-5 text-center">
+                  <div class="hero-title">
+                    <h1 class="name">Dylan Tettemer</h1>
+                    <p class="description">Designer, Developer, Freelancer</p>
+                  </div>
+              </div>
+
+          </section>
+
+          <!--ABOUT ME SECTION-->
+          <section id="about">
+
+            <div class="px-4 pt-5 my-5 text-center">
+                <h2 class="welcome-title">Hey There! Welcome To My Site!</h2>
+                <p class="about-me">About Me</p>
+            </div>
+            <div class="container skills">
+                <div class="row align-items-center">
+                    <div class="text-left col-sm-12 col-md-6 skills-col">
+                        <h3>Welcome!</h3>
+                        <p>My name is Dylan Tettemer. I’m a passionate web designer and developer with experience in this domain, focused on building great and premium websites and web applications.</p>
+                        <p>For every single project that I have done my focus has been on creating the best user experience possible. I’ve worked with several larger as well as smaller businesses and I love new challenges that come my way.</p>
+                    </div>
+                    <div class="text-left col-sm-12 col-md-6 skills-col">
+                        <div class="container skill-imgs">
+                            <div class="row skill-row">
+                                <div class="col">
+                                    <img class="skill-img" src="./resources/images/html.png" alt="html" />
+                                    <img class="skill-img" src="./resources/images/css-3.png" alt="css" />
+                                    <img class="skill-img" src="./resources/images/js.png" alt="javascript" />
+                                </div>
+                            </div>
+                            <div class="row skill-row">
+                                <div class="col align">
+                                    <img class="skill-img" src="./resources/images/bootstrap.png" alt="bootstrap" />
+                                    <img class="skill-img" src="./resources/images/physics.png" alt="react" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+          </section>
+
+          <!--EXPERIENCE SECTION-->
+          <section id="projects">
+              <h2>Latest Projects</h2>
+
+              <div class="project-filter">
+                <ul class="list-group list-group-horizontal justify-content-center">
+                    <li class="list-group-item is-checked border-0 all" data-filter="all">All</li>
+                    <li class="list-group-item border-0 web-app-btn" data-filter="web-app">Web Apps</li>
+                    <li class="list-group-item border-0 web-design-btn" data-filter="web-design">Web Designs</li>
+                    <li class="list-group-item border-0 landing-page-btn" data-filter="landing-page">Landing Page</li>
+                </ul>
+              </div>
+
+              <div class="container projects-container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col project web-design web-app" data-category="web-design web-app">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="./resources/images/ecomm-react.png" width="100%" height="400"/>
+                            <div class="card-body">
+                              <p class="card-text">Full-stack mobile friendly ecommerce application built utilizing React, Google Firebase, Sass and Stripe.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col project web-design web-app landing-page" data-category="web-design web-app landing-page">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="./resources/images/html-css-bootstrap-javascript.png" width="100%" height="400"/>
+                            <div class="card-body">
+                              <p class="card-text">This was a quick little mock up for a landing page trying to sell site visitors to download a phone application.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col project web-design web-app landing-page" data-category="web-design web-app landing-page">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="./resources/images/landing-page-mailchimp.png" width="100%" height="400"/>
+                            <div class="card-body">
+                              <p class="card-text">Small landing page email sign up form that was built utilizing Bootstrap and Node.js on the back end with Mailchimp</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col project web-design" data-category="web-design">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="./resources/images/html-css-site.png" width="100%" height="400"/>
+                            <div class="card-body">
+                              <p class="card-text">My first personal site that I made using only HTML and CSS!</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+
+              </div>
+
+          </section>
+          <section id="contact">
+
+              <h2>Get In Touch!</h2>
+
+              <form class="contact-form">
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputSubject" class="form-label">Subject</label>
+                    <input type="subject" class="form-control" id="exampleInputSubject">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputMessage" class="form-label">Message</label>
+                    <input type="message" class="form-control" id="exampleInputMessage">
+                  </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn contact-button">Send Message!</button>
+                </div>
+              </form>
+
+          </section>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
