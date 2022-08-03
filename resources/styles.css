@@ -43,15 +43,6 @@ header li {
     filter: grayscale(1);
 }
 
-.home::after {
-    background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 1%,#fff 37%);;
-    bottom: 0;
-    z-index: 1;
-    position: absolute;
-    width: 200%;
-    height: 35%;
-    transform: translate(-50%,30%);
-}
 
 .hero-title {
     padding-top: 10%;
